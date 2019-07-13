@@ -1,7 +1,7 @@
-## Data Modeling with Postgres
+# Data Modeling with Postgres
 Hi! In this project, I have created a Postgres database with tables to analyze the data on songs and user activity on a new music streaming app from a company called Sparkify.
 
-# Files
+## Files
 Below are the files used to complete this project.
 
 **test.ipynb** - displays the first few rows of each table to let you check your database.
@@ -16,3 +16,11 @@ Below are the files used to complete this project.
 
 ## Database Schema
 ![Database Schema](https://github.com/hemanthboddepalli/DEND---Projects/blob/master/Schema.jpeg)
+
+## DB Schema Description
+
+## How to run the project
+1. Install Postgres and Python3 in your machine.
+2. Download the project which includes all the project files.
+3. Run "python create_tables.py" in your terminal to create tables in your Postgres database.
+4. Run "python etl.py" to load the data into the tables created in the above step.

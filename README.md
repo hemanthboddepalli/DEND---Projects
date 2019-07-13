@@ -18,6 +18,14 @@ Below are the files used to complete this project.
 ![Database Schema](https://github.com/hemanthboddepalli/DEND---Projects/blob/master/Schema.jpeg)
 
 ## DB Schema Description
+The DB Schema created based on Star Schema. The songplays table is the fact time and the other tables are dimension tables.
+**users** table capture the details of the users using the app.
+**songs** table stores all the songs in the app.
+**artists** table stores all the artists and their location.
+**time** table stores timestamps of records in songplays.
+**songplays** table stores the log data associated with song plays.
+
+songplays table is created based on the dimension data present in the users, songs, artists and time tables.
 
 ## How to run the project
 1. Install Postgres and Python3 in your machine.

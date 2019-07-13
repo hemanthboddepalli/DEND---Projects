@@ -1,5 +1,5 @@
-# # Data Modeling with Postgres
-Hi! In this project, I have created a Postgres database with tables to analyze the data on songs and user activity.
+## Data Modeling with Postgres
+Hi! In this project, I have created a Postgres database with tables to analyze the data on songs and user activity on a new music streaming app from a company called Sparkify.
 
 # Files
 Below are the files used to complete this project.
